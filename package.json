@@ -4,7 +4,8 @@
   "description": "Provides access to the system font catalog",
   "main": "build/Release/fontmanager",
   "dependencies": {
-    "nan": ">=2.10.0"
+    "nan": "2.13.2",
+    "node-gyp": "3.8.0"
   },
   "devDependencies": {
     "mocha": "*"
@@ -18,20 +19,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devongovett/font-manager.git"
+    "url": "https://github.com/ArtyomHov/font-manager.git"
   },
-  "keywords": [
-    "font",
-    "find",
-    "search",
-    "substitute",
-    "enumerate"
-  ],
-  "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
-  "gypfile": true,
-  "bugs": {
-    "url": "https://github.com/devongovett/font-manager/issues"
-  },
-  "homepage": "https://github.com/devongovett/font-manager"
+  "gypfile": true
 }
